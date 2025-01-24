@@ -79,12 +79,12 @@ ASSIGNMENT GOAL:
 
 '''
 
-name = input("Jamie")
-age = int(input(20))
-height = float(input(6))
-is_student = bool(input(True))
+name = input('Please enter a name: ')
+age = int(input('Please enter an age: '))
+height = float(input('Please enter a height: '))
+is_student = bool(input('Please enter whether or not you are a student: '))
 
-# I'm assuming this should be working, I cannot find anything wrong with it, and I am very confused
+
 
 displayValues(name,age,height,is_student)
 
