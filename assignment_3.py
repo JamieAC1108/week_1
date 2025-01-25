@@ -14,6 +14,11 @@ Year 2: 2028
 Difference: 3
 '''
 
+x = int(input('Year 1: '))
+y = int(input('Year 2: '))
+z = x - y
+print('Difference is', z)
+
 
 #%%
 # Second Assignment
@@ -27,6 +32,10 @@ Your output should look like:
 Fahrenheit: 25
 Celsius: -3.89
 '''
+
+x = int(input('Fahrenheit: '))
+y = ((x - 32) * (5/9))
+print('Celsius:', y)
 
 
 #%%
@@ -42,6 +51,10 @@ USD: 1
 EU: 0.97
 
 '''
+
+x = int(input('US Dollars: '))
+y = x * 0.97
+print('EU:', y)
 
 
 ##### ASSIGNMENT ENDS HERE #####
